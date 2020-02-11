@@ -1,0 +1,21 @@
+{
+  "name": "root",
+  "private": true,
+  "scripts": {
+    "test": "jest",
+    "lint": "tslint 'packages/**/*.ts{,x}'",
+    "publish": "lerna run tsc && lerna publish"
+  },
+  "devDependencies": {
+    "@aws-cdk/assert": "^1.23.0",
+    "@types/jest": "^25.1.2",
+    "@types/node": "^13.7.0",
+    "jest": "^25.1.0",
+    "jsii": "^0.22.0",
+    "jsii-pacmak": "^0.22.0",
+    "lerna": "^3.20.2",
+    "ts-jest": "^25.2.0",
+    "tslint": "^6.0.0",
+    "typescript": "^3.7.5"
+  }
+}

@@ -1,0 +1,60 @@
+{
+  "name": "cdk-common-alarms",
+  "version": "0.1.0",
+  "description": "Common Alarms made with CDK!",
+  "author": "Campion Fellin <campionfellin@gmail.com>",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/campionfellin/ccc.git",
+    "directory": "packages/cdk-common-alarms"
+  },
+  "license": "0BSD",
+  "main": "lib/index.js",
+  "types": "lib/index.d.ts",
+  "scripts": {
+    "tsc": "tsc",
+    "test": "jest",
+    "lint": "tslint 'lib/**/*.ts{,x}'",
+    "build": "jsii",
+    "watch": "jsii -w",
+    "package": "jsii-pacmak -v"
+  },
+  "devDependencies": {
+    "@aws-cdk/assert": "^1.23.0",
+    "@types/jest": "^24.9.1",
+    "@types/node": "10.17.5",
+    "jest": "^24.9.0",
+    "ts-jest": "^24.3.0",
+    "tslint": "^6.0.0",
+    "typescript": "^3.7.5"
+  },
+  "peerDependencies": {
+    "@aws-cdk/core": "^1.22.0",
+    "@aws-cdk/aws-sns": "^1.22.0",
+    "@aws-cdk/aws-sns-subscriptions": "^1.22.0",
+    "@aws-cdk/aws-sqs": "^1.22.0"
+  },
+  "dependencies": {
+    "@aws-cdk/aws-sns": "^1.22.0",
+    "@aws-cdk/aws-sns-subscriptions": "^1.22.0",
+    "@aws-cdk/aws-sqs": "^1.22.0",
+    "@aws-cdk/core": "^1.22.0"
+  },
+  "jsii": {
+    "outdir": "../../dist",
+    "targets": {
+      "java": {
+        "package": "com.campionfellin.ccc.cdkcommonalarms",
+        "maven": {
+          "groupId": "com.campionfellin.ccc",
+          "artifactId": "cdkcommonalarms"
+        }
+      },
+      "dotnet": {
+        "namespace": "CampionFellin.ccc",
+        "packageId": "ccc.cdkcommonalarms"
+      },
+      "sphinx": {}
+    }
+  }
+}
