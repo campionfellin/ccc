@@ -1,6 +1,6 @@
 {
   "name": "@campionfellin/cdk-common-alarms",
-  "version": "0.1.1",
+  "version": "0.1.2",
   "description": "Common Alarms made with CDK!",
   "author": "Campion Fellin <campionfellin@gmail.com>",
   "repository": {
