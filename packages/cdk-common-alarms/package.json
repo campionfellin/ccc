@@ -1,5 +1,5 @@
 {
-  "name": "cdk-common-alarms",
+  "name": "@campionfellin/cdk-common-alarms",
   "version": "0.1.0",
   "description": "Common Alarms made with CDK!",
   "author": "Campion Fellin <campionfellin@gmail.com>",
