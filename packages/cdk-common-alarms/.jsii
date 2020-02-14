@@ -443,7 +443,7 @@
   "homepage": "https://github.com/campionfellin/ccc.git",
   "jsiiVersion": "0.22.0 (build 14afdde)",
   "license": "0BSD",
-  "name": "cdk-common-alarms",
+  "name": "@campionfellin/cdk-common-alarms",
   "readme": {
     "markdown": "# Welcome to your CDK TypeScript Construct Library project!\n\nYou should explore the contents of this project. It demonstrates a CDK Construct Library that includes a construct (`CdkCommonAlarms`)\nwhich contains an Amazon SQS queue that is subscribed to an Amazon SNS topic.\n\nThe construct defines an interface (`CdkCommonAlarmsProps`) to configure the visibility timeout of the queue.\n\n## Useful commands\n\n * `npm run build`   compile typescript to js\n * `npm run watch`   watch for changes and compile\n * `npm run test`    perform the jest unit tests"
   },
@@ -455,22 +455,22 @@
   "schema": "jsii/0.10.0",
   "targets": {
     "dotnet": {
-      "namespace": "Acme.HelloNamespace",
-      "packageId": "Acme.HelloPackage"
+      "namespace": "CampionFellin.ccc",
+      "packageId": "ccc.cdkcommonalarms"
     },
     "java": {
       "maven": {
-        "artifactId": "hello-jsii",
-        "groupId": "com.acme.hello"
+        "artifactId": "cdkcommonalarms",
+        "groupId": "com.campionfellin.ccc"
       },
-      "package": "com.acme.hello"
+      "package": "com.campionfellin.ccc.cdkcommonalarms"
     },
     "js": {
-      "npm": "cdk-common-alarms"
+      "npm": "@campionfellin/cdk-common-alarms"
     },
     "sphinx": {}
   },
   "types": {},
-  "version": "0.1.0",
-  "fingerprint": "eMYiuLjB6IyemQnL+otYqVx5DOaqWxm7xstEXS0PILw="
+  "version": "0.1.2",
+  "fingerprint": "ds5Tk8sb0yer6xKATe46AM7DhADX19J7x4I3TZwC7ss="
 }
